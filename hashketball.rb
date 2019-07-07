@@ -194,7 +194,8 @@ def big_shoe_rebounds
   rebounds = 0 
   game_hash.each do |team, info| 
     info[:players].each do |name|
-      if 
+      if name[:shoe] > big_shoe
+        big_shoe = 
     
       v = big_shoe
       puts [:player][:rebounds]
