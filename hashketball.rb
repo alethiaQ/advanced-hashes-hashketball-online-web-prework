@@ -193,8 +193,8 @@ def big_shoe_rebounds
   big_shoe = 0 
   rebounds = 0 
   game_hash.each do |team, info| 
-    info[:players].each do ||
-      if k == [shoe]
+    info[:players].each do |name|
+      if 
     
       v = big_shoe
       puts [:player][:rebounds]
